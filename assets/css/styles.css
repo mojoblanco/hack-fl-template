@@ -1,0 +1,86 @@
+a:hover{
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.logo a {
+    font-size: 3.5em;
+    line-height: 1em;
+    color: #333;
+}
+
+.navbar-toggle{
+    float: none;
+}
+
+@media (min-width:40.063em) {
+    .navbar-toggle{
+        float: left;
+    }
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin-top: 35px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.navbar-nav > li > a {
+    padding: 15px 0;
+    margin: 0 30px;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.main-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.item{
+    position: relative;
+}
+
+@media (min-width:40.063em) {
+    .overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #142026;
+        color: #758594;
+        opacity: 0;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+
+    .overlay:hover {
+        opacity: 0.8;
+    }
+}
+
+
+.item-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+
+.m-b-30{
+    margin-bottom: 30px;
+}
+
+.btn, .panel {
+    border-radius: 0;
+}

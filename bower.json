@@ -1,0 +1,29 @@
+{
+  "name": "hack-fl-theme",
+  "authors": [
+    "John Olawale <mojoblanco@gmail.com>"
+  ],
+  "description": "Html template for hack fl hackathon",
+  "main": "",
+  "keywords": [
+    "html",
+    "bootstrap",
+    "javascript",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-fileinput": "^4.3.9",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}
